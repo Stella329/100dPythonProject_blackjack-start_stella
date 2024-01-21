@@ -1,0 +1,36 @@
+[[package]]
+name = "art"
+version = "6.1"
+description = "ASCII Art Library For Python"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.extras]
+dev = ["coverage (>=4.1)", "vulture (>=1.0)", "bandit (>=1.5.1)", "pydocstyle (>=3.0.0)"]
+
+[[package]]
+name = "clean"
+version = "0.1.4"
+description = "clean: Command line file sorter(mover)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "clear"
+version = "2.0.0"
+description = "A cross-platform Python module that provides a clear() function which clears the terminal. That's all."
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "0ee37c58fa7e3770bf9c33f2b7a37a31016196040df3b783975d12a4212fb310"
+
+[metadata.files]
+art = []
+clean = []
+clear = []
